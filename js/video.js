@@ -1,5 +1,6 @@
 $(function() {
 
+  var video = document.getElementsByTagName('video')[0];
   var $video = $('#video');
   var $playButton = $('#play-pause');
   var $muteButton = $('#mute');
@@ -24,11 +25,11 @@ $(function() {
   });
 
   $fullScreen.click(function() {
-    if (video.requestFullscreen) {
+    if(video.requestFullscreen) {
       video.requestFullscreen();
-    } else if (video.mozRequestFullScreen) {
+    } else if(video.mozRequestFullScreen) {
       video.mozRequestFullScreen();
-    } else if (video.webkitRequestFullscreen) {
+    } else if(video.webkitRequestFullscreen) {
       video.webkitRequestFullscreen();
     }
   });

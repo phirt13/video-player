@@ -1,0 +1,47 @@
+video {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  width: 100%;
+}
+
+button {
+  background-color: transparent;
+  border: .1em solid rgba(15, 250, 234, 1.0);
+  border-radius: .5em;
+  color: white;
+}
+
+button:hover {
+  background-color: rgba(15, 250, 234, 1.0);
+  color: black;
+}
+
+.video-container {
+  width: 60%;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  overflow: auto;
+}
+
+
+.video-control-panel {
+  background-color: rgba(133, 133, 133, 0.5);
+  width: 100%;
+  padding: .5em 0 .5em 0;
+}
+
+#video1 {
+  width:100%;
+}
+
+#seek-bar {
+  width: 55%;
+  vertical-align: middle;
+}
+
+#volume-bar {
+  width: 10%;
+  vertical-align: middle;
+}
