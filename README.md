@@ -1,6 +1,6 @@
 #Video-Player
 
-This repo contains a custom video player made using jQuery.
+This repo contains a custom video player made using jQuery and native JS.
 
 ##Features
 
